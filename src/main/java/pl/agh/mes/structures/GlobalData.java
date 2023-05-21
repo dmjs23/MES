@@ -38,13 +38,13 @@ public class GlobalData {
         System.out.println("-------------------------");
         System.out.println("Dane:");
         System.out.println("-------------------------");
-        System.out.printf("%-20s%.2f%n", "Alfa =", this.alfa);
-        System.out.printf("%-20s%.2f%n", "k =", this.k);
-        System.out.printf("%-20s%.2f%n", "L =", this.L);
-        System.out.printf("%-20s%d%n", "Liczba wezlow =", this.liczbaWezlow);
-        System.out.printf("%-20s%d%n", "Liczba elementów =", this.nE);
-        System.out.printf("%-20s%.2f%n", "q =", this.q);
-        System.out.printf("%-20s%.2f%n", "S =", this.S);
-        System.out.printf("%-20s%.2f%n", "Temp otoczenia =", this.temp);
+        System.out.printf("Alfa =" + this.alfa);
+        System.out.printf("k =" + this.k);
+        System.out.printf("L =" + this.L);
+        System.out.printf("Liczba wezlow =" + this.liczbaWezlow);
+        System.out.printf("Liczba elementów =" + this.nE);
+        System.out.printf("q =" + this.q);
+        System.out.printf("S =" + this.S);
+        System.out.printf("Temp otoczenia =" + this.temp);
     }
 }
