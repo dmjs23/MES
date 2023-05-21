@@ -17,11 +17,8 @@ public class Node {
 
     @Override
     public String toString() {
-        return "Node{" +
+        return "Node " +
                 "id=" + id +
-                ", t=" + t +
-                ", x=" + x +
-                ", BC=" + BC +
-                '}';
+                ", x=" + x;
     }
 }
