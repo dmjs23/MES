@@ -94,6 +94,7 @@ public class SOE {
         for (int i = 0; i < data.getLiczbaWezlow(); i++) {
             System.out.print(this.T[i]*-1 +" ");
         }
+        System.out.println();
     }
     public void showPGlobal(GlobalData data){
         for (int i = 0; i < data.getLiczbaWezlow(); i++) {
