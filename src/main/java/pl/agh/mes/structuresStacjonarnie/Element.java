@@ -1,11 +1,9 @@
-package pl.agh.mes.structures;
+package pl.agh.mes.structuresStacjonarnie;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-
-import java.lang.reflect.Array;
 
 @Getter
 @Setter

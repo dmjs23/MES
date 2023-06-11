@@ -1,10 +1,10 @@
 package pl.agh.mes.rozwiazania;
 
 import lombok.NoArgsConstructor;
-import pl.agh.mes.structures.Element;
-import pl.agh.mes.structures.GlobalData;
-import pl.agh.mes.structures.Node;
-import pl.agh.mes.structures.SOE;
+import pl.agh.mes.structuresStacjonarnie.Element;
+import pl.agh.mes.structuresStacjonarnie.GlobalData;
+import pl.agh.mes.structuresStacjonarnie.Node;
+import pl.agh.mes.structuresStacjonarnie.SOE;
 
 import java.io.File;
 import java.io.FileNotFoundException;

@@ -1,4 +1,4 @@
-package pl.agh.mes.structures;
+package pl.agh.mes.structuresStacjonarnie;
 
 
 import lombok.AllArgsConstructor;
