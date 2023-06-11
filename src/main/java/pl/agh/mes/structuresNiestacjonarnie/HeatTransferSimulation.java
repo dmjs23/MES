@@ -51,6 +51,7 @@ public class HeatTransferSimulation {
         }
         return elements;
     }
+
     private static void calculateH(double[][] h, double[][] dN, double kValue, double xPos, double w, double elemLength,
                                    double c, double ro, double dTau, double[][] tempVecs) {
         for (int i = 0; i < tempVecs.length; i++) {
@@ -60,6 +61,7 @@ public class HeatTransferSimulation {
             }
         }
     }
+
     private static void calculateP(double[] p, double n1, double n2, double c, double ro, double elemLength, double xPos,
                                    double temp, double w, double dTau) {
         double[] temps = {n1, n2};
@@ -69,6 +71,7 @@ public class HeatTransferSimulation {
             p[k] += (temps[k] * tempCoef * xPos * temp) / dTau;
         }
     }
+
     private static void applyConvectionBoundary(double[][] h, double[] p, double alfaAir, double r, double tempAir) {
         h[1][1] += alfaAir * r;
         p[1] += alfaAir * tempAir * r;
@@ -112,13 +115,13 @@ public class HeatTransferSimulation {
         System.out.println("-------------------------");
         System.out.println("Wektor PG:");
         for (int i = 0; i < numNodes; i++) {
-            System.out.print(pg[i]+" | ");
+            System.out.print(pg[i] + " | ");
         }
         System.out.println("\n-------------------------");
 
         System.out.println("Wektor TG:");
         for (int i = 0; i < numNodes; i++) {
-            System.out.print(tg[i]+" | ");
+            System.out.print(tg[i] + " | ");
         }
         System.out.println("\n-------------------------");
     }

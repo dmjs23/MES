@@ -8,7 +8,7 @@ import static pl.agh.mes.structuresNiestacjonarnie.HeatTransferSimulation.gaussE
 @NoArgsConstructor
 public class KodNiestacjonarny {
 
-    public void  obliczNiestacjonarnie(){
+    public void obliczNiestacjonarnie() {
 
         GlobalData globalData = new GlobalData();
 
@@ -16,7 +16,7 @@ public class KodNiestacjonarny {
 
         double[] res = new double[0];
         for (int tau = 0; tau < 1; tau++) {
-            System.out.println("Wypisz wszystkie węzły dla tau = "+tau);
+            System.out.println("Wypisz wszystkie węzły dla tau = " + tau);
             for (Nod node : nodes) {
                 System.out.println(node);
             }
